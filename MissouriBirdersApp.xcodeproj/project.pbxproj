@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9BDC131F95869A0029B680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC121F95869A0029B680 /* AppDelegate.swift */; };
+		DD9BDC151F95869A0029B680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC141F95869A0029B680 /* ViewController.swift */; };
+		DD9BDC181F95869A0029B680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9BDC161F95869A0029B680 /* Main.storyboard */; };
+		DD9BDC1A1F95869A0029B680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9BDC191F95869A0029B680 /* Assets.xcassets */; };
+		DD9BDC1D1F95869A0029B680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9BDC1B1F95869A0029B680 /* LaunchScreen.storyboard */; };
+		DD9BDC251F9586B30029B680 /* CountyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC241F9586B30029B680 /* CountyTableViewController.swift */; };
+		DD9BDC271F9586E00029B680 /* CountyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC261F9586E00029B680 /* CountyTableViewCell.swift */; };
+		DD9BDC291F9587050029B680 /* BirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC281F9587050029B680 /* BirdTableViewController.swift */; };
+		DD9BDC2B1F9587260029B680 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC2A1F9587260029B680 /* Data.swift */; };
+		DD9BDC2D1F958AE90029B680 /* BirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC2C1F958AE90029B680 /* BirdTableViewCell.swift */; };
+		DD9BDC2F1F958CA30029B680 /* BirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC2E1F958CA30029B680 /* BirdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD9BDC0F1F95869A0029B680 /* MissouriBirdersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissouriBirdersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9BDC121F95869A0029B680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD9BDC141F95869A0029B680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD9BDC171F95869A0029B680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD9BDC191F95869A0029B680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9BDC1C1F95869A0029B680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD9BDC1E1F95869A0029B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9BDC241F9586B30029B680 /* CountyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewController.swift; sourceTree = "<group>"; };
+		DD9BDC261F9586E00029B680 /* CountyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewCell.swift; sourceTree = "<group>"; };
+		DD9BDC281F9587050029B680 /* BirdTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdTableViewController.swift; sourceTree = "<group>"; };
+		DD9BDC2A1F9587260029B680 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DD9BDC2C1F958AE90029B680 /* BirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdTableViewCell.swift; sourceTree = "<group>"; };
+		DD9BDC2E1F958CA30029B680 /* BirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9BDC0C1F95869A0029B680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9BDC061F95869A0029B680 = {
+			isa = PBXGroup;
+			children = (
+				DD9BDC111F95869A0029B680 /* MissouriBirdersApp */,
+				DD9BDC101F95869A0029B680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9BDC101F95869A0029B680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9BDC0F1F95869A0029B680 /* MissouriBirdersApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9BDC111F95869A0029B680 /* MissouriBirdersApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD9BDC121F95869A0029B680 /* AppDelegate.swift */,
+				DD9BDC141F95869A0029B680 /* ViewController.swift */,
+				DD9BDC161F95869A0029B680 /* Main.storyboard */,
+				DD9BDC191F95869A0029B680 /* Assets.xcassets */,
+				DD9BDC1B1F95869A0029B680 /* LaunchScreen.storyboard */,
+				DD9BDC1E1F95869A0029B680 /* Info.plist */,
+				DD9BDC241F9586B30029B680 /* CountyTableViewController.swift */,
+				DD9BDC2A1F9587260029B680 /* Data.swift */,
+				DD9BDC261F9586E00029B680 /* CountyTableViewCell.swift */,
+				DD9BDC2C1F958AE90029B680 /* BirdTableViewCell.swift */,
+				DD9BDC281F9587050029B680 /* BirdTableViewController.swift */,
+				DD9BDC2E1F958CA30029B680 /* BirdViewController.swift */,
+			);
+			path = MissouriBirdersApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9BDC0E1F95869A0029B680 /* MissouriBirdersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9BDC211F95869A0029B680 /* Build configuration list for PBXNativeTarget "MissouriBirdersApp" */;
+			buildPhases = (
+				DD9BDC0B1F95869A0029B680 /* Sources */,
+				DD9BDC0C1F95869A0029B680 /* Frameworks */,
+				DD9BDC0D1F95869A0029B680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MissouriBirdersApp;
+			productName = MissouriBirdersApp;
+			productReference = DD9BDC0F1F95869A0029B680 /* MissouriBirdersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9BDC071F95869A0029B680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Muthyala,Nikhil";
+				TargetAttributes = {
+					DD9BDC0E1F95869A0029B680 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD9BDC0A1F95869A0029B680 /* Build configuration list for PBXProject "MissouriBirdersApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9BDC061F95869A0029B680;
+			productRefGroup = DD9BDC101F95869A0029B680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9BDC0E1F95869A0029B680 /* MissouriBirdersApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9BDC0D1F95869A0029B680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9BDC1D1F95869A0029B680 /* LaunchScreen.storyboard in Resources */,
+				DD9BDC1A1F95869A0029B680 /* Assets.xcassets in Resources */,
+				DD9BDC181F95869A0029B680 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9BDC0B1F95869A0029B680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9BDC291F9587050029B680 /* BirdTableViewController.swift in Sources */,
+				DD9BDC2B1F9587260029B680 /* Data.swift in Sources */,
+				DD9BDC2D1F958AE90029B680 /* BirdTableViewCell.swift in Sources */,
+				DD9BDC2F1F958CA30029B680 /* BirdViewController.swift in Sources */,
+				DD9BDC251F9586B30029B680 /* CountyTableViewController.swift in Sources */,
+				DD9BDC271F9586E00029B680 /* CountyTableViewCell.swift in Sources */,
+				DD9BDC151F95869A0029B680 /* ViewController.swift in Sources */,
+				DD9BDC131F95869A0029B680 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD9BDC161F95869A0029B680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9BDC171F95869A0029B680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD9BDC1B1F95869A0029B680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9BDC1C1F95869A0029B680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9BDC1F1F95869A0029B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9BDC201F95869A0029B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9BDC221F95869A0029B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissouriBirdersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.MissouriBirdersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD9BDC231F95869A0029B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissouriBirdersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.MissouriBirdersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9BDC0A1F95869A0029B680 /* Build configuration list for PBXProject "MissouriBirdersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9BDC1F1F95869A0029B680 /* Debug */,
+				DD9BDC201F95869A0029B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9BDC211F95869A0029B680 /* Build configuration list for PBXNativeTarget "MissouriBirdersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9BDC221F95869A0029B680 /* Debug */,
+				DD9BDC231F95869A0029B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9BDC071F95869A0029B680 /* Project object */;
+}

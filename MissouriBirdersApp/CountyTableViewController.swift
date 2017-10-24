@@ -12,8 +12,8 @@ class CountyTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Counties"
-        tableView.register(CountyTableViewCell.self, forCellReuseIdentifier: "county_cell")
+//        self.navigationItem.title = "Counties"
+//        tableView.register(CountyTableViewCell.self, forCellReuseIdentifier: "county_cell")
     }
     override func viewWillAppear(_ animated:Bool){
         tableView.reloadData()
@@ -43,7 +43,6 @@ class CountyTableViewController: UITableViewController {
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         let birdsTableViewController:BirdsTableViewController = BirdsTableViewController()
         birdsTableViewController.county = State.counties[indexPath.row]
         self.navigationController?.pushViewController(birdsTableViewController, animated: true)

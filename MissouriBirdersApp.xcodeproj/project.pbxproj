@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD19FAE71F9ECBB8000CA08D /* AddcountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19FAE61F9ECBB8000CA08D /* AddcountyViewController.swift */; };
 		DD9BDC131F95869A0029B680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC121F95869A0029B680 /* AppDelegate.swift */; };
 		DD9BDC151F95869A0029B680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9BDC141F95869A0029B680 /* ViewController.swift */; };
 		DD9BDC181F95869A0029B680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9BDC161F95869A0029B680 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD19FAE61F9ECBB8000CA08D /* AddcountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddcountyViewController.swift; sourceTree = "<group>"; };
 		DD9BDC0F1F95869A0029B680 /* MissouriBirdersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissouriBirdersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9BDC121F95869A0029B680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9BDC141F95869A0029B680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				DD9BDC2C1F958AE90029B680 /* BirdTableViewCell.swift */,
 				DD9BDC281F9587050029B680 /* BirdTableViewController.swift */,
 				DD9BDC2E1F958CA30029B680 /* BirdViewController.swift */,
+				DD19FAE61F9ECBB8000CA08D /* AddcountyViewController.swift */,
 			);
 			path = MissouriBirdersApp;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				DD9BDC251F9586B30029B680 /* CountyTableViewController.swift in Sources */,
 				DD9BDC271F9586E00029B680 /* CountyTableViewCell.swift in Sources */,
 				DD9BDC151F95869A0029B680 /* ViewController.swift in Sources */,
+				DD19FAE71F9ECBB8000CA08D /* AddcountyViewController.swift in Sources */,
 				DD9BDC131F95869A0029B680 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
